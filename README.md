@@ -50,7 +50,3 @@ The system allows managing events and participant registrations with persistent 
 
 ## Author
 Created by **Shree Vishali K**
-
-
-3. Navigate to the project directory
-4. Compile the program:
