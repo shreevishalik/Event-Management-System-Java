@@ -1,7 +1,9 @@
-# Event Management System (C)
+# Event Management System (Java)
 
-A menu-driven Event Management System developed in C using file handling.
-The system manages events and participant registrations with persistent storage using text files.
+A menu-driven **Event Management System** developed in **Java**.  
+The system allows managing events and participant registrations with persistent storage using text files. This project demonstrates file handling, object-oriented programming, and menu-driven application design.
+
+---
 
 ## Features
 - Add new events
@@ -9,35 +11,46 @@ The system manages events and participant registrations with persistent storage 
 - Register participants
 - Store data using `.txt` files
 - Simple menu-driven interface
+- Persistent storage for events and registrations
+
+---
 
 ## Technologies Used
-- C Programming Language
-- File Handling (`.txt` files)
+- Java Programming Language
+- File Handling (`File`, `FileWriter`, `BufferedReader`)
+- Console-based interface
 
-## Project Structure
-Event-Management-System/
-├── src/
-│   └── event_management.c
-├── data/
-│   ├── events.txt
-│   └── registrations.txt
-└── README.md
+---
 
 ## File Description
-- `event_management.c` – Main C source file containing program logic
+- `EventManagement.java` – Main Java source file containing program logic
 - `events.txt` – Stores event details
 - `registrations.txt` – Stores participant registration details
 
+---
+
 ## How to Run
-1. Open terminal / command prompt
-2. Navigate to the `src` directory
+1. Open a terminal or command prompt
+2. Navigate to the project directory
 3. Compile the program:
-   gcc event_management.c -o event_management
-4. Run the executable:
-   ./event_management
-5. Make sure the `.txt` files are present in the `data` folder
+   javac EventManagement.java
+4. Run the program:
+   java EventManagement
+5. Ensure the `.txt` files (`events.txt` and `registrations.txt`) are present in the project directory
+
+---
 
 ## Learning Outcomes
-- Practical understanding of file handling in C
-- Experience with menu-driven programs
-- Improved logical thinking and program structuring
+- Practical understanding of **file handling in Java**
+- Experience creating **menu-driven console applications**
+- Improved **logical thinking and program structuring**
+- Hands-on practice with **OOP concepts in Java**
+
+---
+
+## Author
+Created by **Shree Vishali K**
+
+
+3. Navigate to the project directory
+4. Compile the program:
